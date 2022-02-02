@@ -1,6 +1,7 @@
 import { createServer } from 'http';
 import data from './data.js';
 import { getList } from './list.js';
+import {deleteAddress} from  './delete.js';
 
 createServer((request, response) => {
   const urlParts = request.url.split('/');
